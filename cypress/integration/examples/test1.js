@@ -36,7 +36,8 @@ describe("test suit", function () {
             }
 
         })
-        /*cy.get('.brand').then(function(logoelement)
+        /* TYPE-1
+        cy.get('.brand').then(function(logoelement)
     {
         cy.log(logoelement.text())
      
