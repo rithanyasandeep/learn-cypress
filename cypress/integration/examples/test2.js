@@ -1,5 +1,5 @@
 describe('test suit', function () {
-    it('2nd test case', function () {
+    it('automate inputs and loop iteration using each', function () {
         cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
         cy.get('.search-keyword').type('ca')
         cy.wait(1000)

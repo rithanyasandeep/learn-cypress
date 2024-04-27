@@ -1,6 +1,6 @@
 describe("test suit", function () {
 
-    it("3rd test case", function () {
+    it("validate checkbox, radio button, visible and invisible ", function () {
 
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         cy.url().should('includes', 'AutomationPractice')

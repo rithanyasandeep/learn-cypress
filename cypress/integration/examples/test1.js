@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("test suit", function () {
+describe("automate inputs and loop iteration using each", function () {
 
     it("1st test case", function () {
         cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')

@@ -1,5 +1,5 @@
 describe("Test suite", () => {
-    it("4th testcase", () => {
+    it("handle pop-up and event handling", () => {
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         cy.get('#name').type('xxx')
         cy.get('#alertbtn').click()
