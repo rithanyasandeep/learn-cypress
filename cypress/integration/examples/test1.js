@@ -4,7 +4,7 @@ describe("automate inputs and loop iteration using each", function () {
 
     it("1st test case", function () {
         cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
-        cy.url().should('includes', 'seleniumPractise')
+        cy.url().should('include', 'seleniumPractise')
         /*     another way
         =>the correct assertion command to check for partial inclusion in Cypress is include, not contains
     
